@@ -127,6 +127,10 @@ npm start
 
 Dashboard: `http://localhost:3000` — the app starts with no config; set up your account and configure platforms from the Settings UI.
 
+## One-Click Deploy
+
+[![Deploy on RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/OmniSight/)
+
 ## The agent
 
 Linux servers, and optionally Proxmox nodes and Docker hosts, are monitored by the **OmniSight agent** — a single bash script that **pushes** metrics to OmniSight over HTTP(S). Nothing to expose on the servers, no credentials stored in OmniSight for this mode, works behind NAT/firewalls as long as the server can reach the dashboard.
